@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato";
+}
+
+.menu {
+  width: 100%;
+  height: 87px;
+  float: left;
+  z-index: 9999;
+}
+
+.home {
+  float: left;
+  margin-left: 39px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.center ul {
+  float: right;
+  margin-right: 30px;
+}
+
+.center ul li {
+  padding-top: 23px;
+  padding-left: 30px;
+  list-style: none;
+  float: left;
+  text-align: center;
+  font-size: 15px;
+}
+.center img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.separador {
+  width: 100%;
+  height: 87px;
+}
+
+.banner {
+  background-color: brown;
+  width: 100%;
+  height: 375px;
+}
+
+.p1 {
+  margin-left: 51px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.p2 {
+  margin-right: 75px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: right;
+}
+
+.barR {
+  width: 50%;
+  display: inline-block;
+}
+
+.barL {
+  width: 50%;
+  float: right;
+}
+
+.linha {
+  border-bottom: 1px solid #a5a1a1;
+}
+
+.centralizar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 1300px;
+  width: 100%;
+  /*background-color: darkblue;*/
+}
+
+.galeria img {
+  width: 302px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.galeria {
+  width: 100%;
+  height: 1321;
+  /*background-color: pink;*/
+}
+
+.galeria ul {
+  float: left;
+}
+.galeria ul li {
+  padding-top: 60px;
+  padding-right: 50px;
+  padding-left: 60px;
+  list-style: none;
+  float: left;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.galeria p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #161616;
+}
+
+.preco {
+  color: #5ca720;
+  font-size: 20px;
+}
+span {
+  float: left;
+  margin-top: 10px;
+  color: #161616;
+  font-size: 20px;
+}
+
+.texto {
+  width: 303px;
+  height: 60px;
+  /*background-color: lawngreen;*/
+}
+
+/*.footer {
+  width: 100%;
+  height: 350px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #a5a1a1;
+}*/
+
+.outros {
+  width: 100%;
+  height: 220px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #a5a1a1;
+}
+
+.outros a {
+  color: #161616;
+}
+
+.outros ul {
+  float: left;
+  margin-left: 47px;
+  margin-top: 38px;
+}
+
+.outros ul li {
+  padding-top: 8px;
+  padding-left: 30px;
+  list-style: none;
+  font-size: 18px;
+}
+
+::placeholder {
+  color: #a5a1a1;
+  font-size: 18px;
+}
+
+.news {
+  float: right;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+.news p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.news button {
+  height: 50px;
+  width: 154px;
+  background-color: #5ca720;
+  color: #ffffff;
+  border: none;
+}
+
+.news input {
+  border-color: #a5a1a1;
+  border: 0.1px solid #a5a1a1;
+}
+
+.social {
+  width: 100%;
+  height: 130px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #a5a1a1;
+}
+
+.social ul li {
+  padding-left: 15px;
+  list-style: none;
+  float: left;
+  text-align: center;
+}
+
+.redes_social {
+  width: 50%;
+  height: 50px;
+  display: inline-block;
+}
+.redes_social img {
+  width: 32px;
+  height: 32px;
+}
+
+.redes_social ul {
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.card {
+  height: 50px;
+  float: right;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+}
+
+.card ul {
+  float: right;
+  margin-right: 50px;
+  margin-top: 40px;
+}
